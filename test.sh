@@ -1,0 +1,1 @@
+curl -fL https://10.52.0.164/system-agent-install.sh | sudo  sh -s - --server https://10.52.0.164 --label 'cattle.io/os=linux' --token hdmltx8fvkgr5hx5q8qdt6v8fbpr7965swb5zbqrxxsjdwdw4sbp2q --ca-checksum 8376200fcd7f04d2c53ac52c118e4de210b11f9f6f5917a396d7c5ab443285fd --etcd --controlplane --worker
